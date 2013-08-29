@@ -1,0 +1,20 @@
+{
+    "name": "elefant/app-lorem",
+    "type": "elefant-app",
+    "description": "A lorem ipsum generator for the Elefant CMS",
+    "keywords": ["lorem", "ipsum", "generator", "testing", "prototyping", "elefant", "cms", "app"],
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "Johnny Broadway",
+			"email": "johnny@johnnybroadway.com",
+			"homepage": "http://www.johnnybroadway.com/"
+		}
+	],
+    "repositories": [
+        {"type": "git", "url": "http://github.com/jbroadway/elefant_installer"}
+    ],
+    "require": {
+        "elefant/app-installer": "*"
+    }
+}
